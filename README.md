@@ -1,6 +1,6 @@
 # Auto-Partes
 
 * [Introducción]()
-* [Especificación de requerimientos]()
-* [Modelo relacional de la base de datos]()
+* [Especificación de requerimientos](Archivos/AP01-AA1-EV01-Identificacion-Necesidad-SI.docx)
+* [Modelo relacional de la base de datos](Modelo BD/Modelo BD.jpg)
 * [Diagramas(casos de uso, driagrama de clases)]()
