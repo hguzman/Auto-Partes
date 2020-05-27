@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+   
+}
+
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    color: #999999;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+section{
+    padding: 120px 0;
+}
+
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+.portafolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+
+}
+
+.portafolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.port-detalles{
+    position: absolute;
+    bottom: 25px;
+    left: 45px;
+    z-index: 9000;
+}
+ .port-detalles a p {
+    color:gray;
+    font-size: 25px;
+    margin-left: 30px;
+    
+}
+.topmargin-xs{
+    margin-top:15px;
+
+}
+
+.topmargin-sm{
+    margin-top:30px ;
+
+}
+
+.topmargin-lg{
+    margin-top: 60px;
+
+}
+
+
+
+.navbar{
+    background-color:white;
+    box-shadow: 0 2px 4px 0 rgb(0,0,0,0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.logo-brand{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+#seccion{
+    background-image: url('fondo1.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 500px;
+    min-width: 100%;
+    color: white;
+}
+
+.redes{
+    width: 60px;
+    
+}
+
+
+
+#seccion p{
+    color: white;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
