@@ -110,8 +110,19 @@ section{
     outline: none;
 }
 
+#docu h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+#docu h3{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
 #seccion{
-    background-image: url('fondo1.jpg');
+    background-image: url('../img/fondo1.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 500px;
@@ -124,12 +135,9 @@ section{
     
 }
 
-
-
 #seccion p{
     color: white;
 }
-
 .content-center{
     max-width: 800px;
     margin: 0 auto 60px auto;
