@@ -26,7 +26,12 @@ p{
     margin-bottom: 0;
     color: #999999;
 }
-
+li{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    color: #999999;
+}
 a:hover{
     text-decoration: none;
 }
@@ -35,30 +40,6 @@ section{
     padding: 120px 0;
 }
 
-.portafolio-container{
-    position: relative;
-    overflow: hidden;
-    margin: 10px 0;
-    border-radius: 2px;
-}
-.portafolio-container img{
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-
-}
-
-.portafolio-container:hover img{
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
-.port-detalles{
-    position: absolute;
-    bottom: 25px;
-    left: 45px;
-    z-index: 9000;
-}
  .port-detalles a p {
     color:gray;
     font-size: 25px;
@@ -80,8 +61,6 @@ section{
 
 }
 
-
-
 .navbar{
     background-color:white;
     box-shadow: 0 2px 4px 0 rgb(0,0,0,0, .05);
@@ -94,6 +73,12 @@ section{
 
 .nav-link:hover{
     color: black;
+}
+
+#galeria img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
 }
 
 .logo-brand{
@@ -143,7 +128,6 @@ section{
     margin: 0 auto 60px auto;
     text-align: center;
 }
-
 
 
 /* galeria*/
